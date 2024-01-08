@@ -19,7 +19,6 @@ module.exports = {
 			amd: 'element-ui',
 			root: 'ELEMENT',
 		},
-		axios: 'axios',
 	},
 	module: {
 		rules: [

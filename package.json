@@ -1,6 +1,6 @@
 {
 	"name": "test-npm-comp",
-	"version": "0.0.1",
+	"version": "1.1.2",
 	"description": "Vue2开发组件的工程模板",
 	"main": "index.js",
 	"scripts": {
@@ -27,6 +27,10 @@
 		"LICENSE"
 	],
 	"license": "ISC",
+	"peerDependencies": {
+		"element-ui": "^2.15.14",
+		"vue": "^2.7.16"
+	},
 	"devDependencies": {
 		"@babel/core": "^7.23.7",
 		"@babel/preset-env": "^7.23.7",
