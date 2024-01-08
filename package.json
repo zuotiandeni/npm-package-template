@@ -1,6 +1,6 @@
 {
 	"name": "test-npm-comp",
-	"version": "1.1.2",
+	"version": "1.1.7",
 	"description": "Vue2开发组件的工程模板",
 	"main": "index.js",
 	"scripts": {
