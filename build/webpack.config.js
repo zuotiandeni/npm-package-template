@@ -6,9 +6,12 @@ module.exports = {
 	// devtool:'source-map',
 	entry: './package/index.js',
 	output: {
-		filename: 'index.js',
 		path: path.resolve(__dirname, '../'),
-		libraryTarget: 'umd',
+		publicPath: '/dist/',
+		filename: 'index.js',
+		chunkFilename: '[id].js',
+		libraryExport: 'default', // 有了它就可以解构export default的对象了
+		libraryTarget: 'commonjs2',
 	},
 	externals: {
 		vue: 'Vue', // 排除 Vue
